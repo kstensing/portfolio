@@ -30,11 +30,18 @@ The landing page should resemble the following image:
 
 ## Credits
 
-**List your collaborators, if any, with links to their GitHub profiles.
+### Photo Credits:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+![Purple flower photo by Mary Skrynnikova on Unsplash](https://unsplash.com/photos/qKfEYouKiiI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-If you followed tutorials, include links to those here as well.**
+![Orange flower photo by Zoltan Tasi on Unsplash](https://unsplash.com/photos/Q75aqX0wHHA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+![Leaves photo by Fernando Cardoso on Unsplash](https://unsplash.com/photos/qpBUAUApU0g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+  
+![Trees photo by Andrew Svk on Unsplash](https://unsplash.com/photos/qpBUAUApU0g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+![Fern photo by Vadim Sadovski on Unsplash](https://unsplash.com/photos/qpBUAUApU0g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    
 
 
 ## License
