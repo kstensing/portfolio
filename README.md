@@ -6,9 +6,9 @@
 
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=kstensing&theme=blue-green)
 
-## Table of Contents (Optional)
+This portfolio page is intended to provide a little bit about me, my previous works, and my contact information. 
 
-If your README is very long, add a table of contents to make it easy for users to find what they need, such as the following:
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
