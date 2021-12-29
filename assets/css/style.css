@@ -51,7 +51,7 @@ header h1 {
     font-family: var(--primary-font);
     font-size: 35px;
     color: var(--primary-color);
-    margin: 15;
+    margin: 15px;
 
 }
 
@@ -94,25 +94,41 @@ footer {
     justify-content: center;
 }
 
+/* section styles */
+section {
+    padding: 100px;
+}
+
 /* about me styles */
-aside {
-    border-right: 5px solid var(--tertiary-color);
-    display: inline-flex;
+.container {
+    display: flex;
     flex-wrap: wrap;
+
+}
+
+.title {
+    font-weight: lighter;
+    border-right: 5px solid var(--tertiary-color);
+    padding: 0 20px 20px 20px;
+    flex-basis: 15%;
+    text-align: right;
+    font-size: 30px;
     flex-direction: row;
 }
 
-aside h2 {
-    font-weight: lighter;
-    padding: 175px;
+.content {
+    flex: 1 0 30%; 
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 45px;
+}
+
+.content p {
+
 }
 
 img {
     max-width: 165px;
     max-height: 215px;
-}
-
-.content {
-    display: inline-flex;
-    flex-direction: row;
+    align-items: flex-start;
 }
