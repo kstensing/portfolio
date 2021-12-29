@@ -9,6 +9,9 @@
     --octonary-color: #7bad5c;
     --nonary-color: white;
     --denary-color: #0a1f18;
+    --primary-font: 'lucida handwriting', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 * {
@@ -18,12 +21,10 @@
 }
 
 body {
-    color: var(--secondary-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary-color);
     font-weight: lighter;
+    font-family: var(--secondary-font);
     background-image: url("../images/fern.jpg");
-    display: flex;
-    flex-wrap: wrap;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -37,18 +38,17 @@ header {
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
     background-image: url("../images/fern.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    top: 0;
     z-index: 9999;
 }
 
 
 header h1 {
-    font-weight: lighter;
-    font-family: 'lucida handwriting', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--primary-font);
     font-size: 35px;
     color: var(--primary-color);
     margin: 15;
@@ -88,6 +88,31 @@ footer {
     width: 100%;
     text-align: center;
     font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
 }
 
+/* about me styles */
+aside {
+    border-right: 5px solid var(--tertiary-color);
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+aside h2 {
+    font-weight: lighter;
+    padding: 175px;
+}
+
+img {
+    max-width: 165px;
+    max-height: 215px;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: row;
+}
