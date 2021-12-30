@@ -116,19 +116,24 @@ section {
     flex-direction: row;
 }
 
-.content {
-    flex: 1 0 30%; 
-    align-items: flex-end;
+article { 
+    margin: 0 45px 45px 45px;
+    flex: 1 30%;
+    display: flex;
     justify-content: space-around;
-    margin: 45px;
+    align-content: flex-start;
 }
 
-.content p {
-
+.article-paragraph {
+    flex: 70%;
 }
 
-img {
+article img {
     max-width: 165px;
     max-height: 215px;
-    align-items: flex-start;
+    border: solid 4px var(--denary-color);
+}
+
+.article-image {
+    flex: 10%;
 }
