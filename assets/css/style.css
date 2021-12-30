@@ -103,7 +103,6 @@ section {
 .container {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .title {
@@ -129,11 +128,46 @@ article {
 }
 
 article img {
-    max-width: 165px;
-    max-height: 215px;
+    max-width: 80%;
     border: solid 4px var(--denary-color);
 }
 
 .article-image {
     flex: 10%;
+}
+
+
+/* work styles */
+.project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 45px 45px 45px;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.project {
+    padding-bottom: 50px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+   
+}
+
+.project-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 75px;
+
+}
+
+.project-1 {
+    background-image: url("../images/trees.jpg");
+    background-size: cover;
+    width: 80%;
+    margin-bottom: 75px;
+    border: solid 3px var(--tertiary-color);
+
 }
