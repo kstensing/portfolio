@@ -139,22 +139,34 @@ section {
 
 /* work styles */
 .project-tiles {
-    margin: 45px;
-    flex-basis: 45%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
+    margin: 0 45px 45px 45px;
+    flex: 1 30%;
 }
 
-.project-tiles a{
-    text-decoration: none;
+.project {
+    background-size: contain;
+    border: solid 5px var(--tertiary-color);
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    color: white;
+    flex: 40%;
 }
 
 .project img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     opacity: .75;
 }
+
+.project img:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
 .project-title {
     text-align: center;
     font-size: 25px;
@@ -165,20 +177,6 @@ section {
     opacity: 1.0;
 }
 
-.project {
-    background-size: contain;
-    border: solid 5px var(--tertiary-color);
-    display: flex;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.project img:hover {
-    opacity: 1.0;
-    outline: none;
-}
 
 
 .project-tiles:first-child {
