@@ -151,8 +151,9 @@ section {
     text-decoration: none;
 }
 
-.project-tiles img {
+.project img {
     max-width: 100%;
+    opacity: .75;
 }
 .project-title {
     text-align: center;
@@ -164,30 +165,22 @@ section {
     opacity: 1.0;
 }
 
-.project-1 {
+.project {
     background-size: contain;
-    border: solid 3px var(--tertiary-color);
+    border: solid 5px var(--tertiary-color);
     display: flex;
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
     color: white;
-    opacity: 0.75;
 }
 
-.project-1:hover {
+.project img:hover {
     opacity: 1.0;
     outline: none;
 }
 
-.project-2 {
-    background-image: url("../images/purpleflower.jpg");
-    border: solid 3px var(--tertiary-color);
-    display: flex;
-}
 
 .project-tiles:first-child {
    
 
-    
-}
