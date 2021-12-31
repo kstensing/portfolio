@@ -83,15 +83,13 @@ header nav ul li a:hover {
 
 /* footer */
 footer {
-    padding: 15px;
-    color: var(--primary-color);
-    width: 100%;
-    text-align: center;
     font-weight: lighter;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: center;
+    font-family: var(--secondary-font);
+    padding: 0 20px 20px 20px;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: var(--primary-color);
 }
 
 /* section styles */
@@ -136,14 +134,13 @@ section {
     flex: 10%;
 }
 
-
 /* work styles */
 .project-tiles {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 45px 45px 45px;
-    flex: 1 20%;
+    flex: 1 60%;
     justify-content: space-evenly;
 }
 
@@ -155,13 +152,12 @@ section {
     position: relative;
     text-align: center;
     color: white;
-    flex: 55%;
-    justify-content: space-evenly;
+    flex: 53%;
 }
 
 .project:not(:first-child) {
-    max-height: 275px;
-    max-width: 305px;
+    max-height: 300px;
+    max-width: 375px;
 }
 
 .project img {
@@ -185,5 +181,23 @@ section {
     opacity: 1.0;
 }
 
-   
+/* contact me styles */
+.content { 
+    margin: auto;
+    flex: 1 30%;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}   
+
+.content a {
+    font-weight: lighter;
+    padding: 0 20px 20px 20px;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 20px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--primary-color)
+}
 
