@@ -143,17 +143,25 @@ section {
     display: flex;
     flex-wrap: wrap;
     margin: 0 45px 45px 45px;
-    flex: 1 30%;
+    flex: 1 20%;
+    justify-content: space-evenly;
 }
 
 .project {
-    background-size: contain;
+    margin: 0 45px 45px 45px;
+    background-size: 100%;
     border: solid 5px var(--tertiary-color);
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
     color: white;
-    flex: 40%;
+    flex: 55%;
+    justify-content: space-evenly;
+}
+
+.project:not(:first-child) {
+    max-height: 275px;
+    max-width: 305px;
 }
 
 .project img {
@@ -169,7 +177,7 @@ section {
 
 .project-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     background-color: var(--quaternary-color);
     position: absolute;
     bottom: 8px;
@@ -177,8 +185,5 @@ section {
     opacity: 1.0;
 }
 
-
-
-.project-tiles:first-child {
    
 
