@@ -1,17 +1,9 @@
 :root {
     --primary-color: #f5f3f5;
-    --secondary-color: #bfcc94;
+    --secondary-color: #73074f;
     --tertiary-color: #73074f;
-    --quaternary-color: #32034E;
-    --quinary-color: #E24747;
-    --senary-color: #c51b46;
-    --septenary-color: #7bad5c;
-    --octonary-color: #7bad5c;
-    --nonary-color: white;
-    --denary-color: #0a1f18;
     --primary-font: 'lucida handwriting', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 * {
@@ -68,7 +60,6 @@ header nav ul {
     list-style: none;
     display: flex;
     align-items: flex-end;
-
 }
 
 header nav ul li a {
@@ -127,12 +118,13 @@ section {
 
 .about img {
     max-width: 80%;
-    border: solid 4px var(--denary-color);
+    border: solid 4px var(--tertiary-color);
 }
 
 .article-image {
     flex: 10%;
 }
+
 
 /* work styles */
 .project-tiles {
@@ -151,7 +143,6 @@ section {
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    color: white;
     flex: 53%;
 }
 
@@ -174,12 +165,25 @@ section {
 .project-title {
     text-align: center;
     font-size: 15px;
-    background-color: var(--quaternary-color);
+    background-color: var(--tertiary-color);
     position: absolute;
     bottom: 8px;
     left: 16px;
     opacity: 1.0;
+    color: var(--primary-color);
+    padding: 3px;
 }
+
+.project-title h4 {
+    font-family: var(--secondary-font);
+    font-weight: lighter;
+}
+
+.project-title h5 {
+    font-family: var(--secondary-font);
+    font-weight: lighter;
+}
+
 
 /* contact me styles */
 .content { 
@@ -201,3 +205,40 @@ section {
     color: var(--primary-color)
 }
 
+/* media query for smaller screens */
+
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+        margin: 0;
+        padding: 2px;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    } 
+
+    section {
+        padding: 30px 15px;
+    }
+    
+    .project-tiles {
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+}
