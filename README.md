@@ -23,9 +23,8 @@ Click into the LINK for the landing page.
 
 The landing page should resemble the following image: 
 
-```md
-![alt text](assets/images/screenshot.png) ADD SCREENSHOT
-```
+![Landing Page](assets/images/landing.PNG)
+
 
 
 ## Credits
