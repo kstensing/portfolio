@@ -16,14 +16,14 @@ This portfolio page is intended to provide a little bit about me, my previous wo
 
 ## Installation
 
-Click into the LINK for the landing page.
+Click this [LINK](https://kstensing.github.io/portfolio/) for the landing page.
 
 
 ## Usage
 
 The landing page should resemble the following image: 
 
-![Landing Page](assets/images/landing.PNG)
+![Landing Page](assets/images/landing.jpg)
 
 
 
