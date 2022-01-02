@@ -21,9 +21,9 @@ Click this [LINK](https://kstensing.github.io/portfolio/) for the landing page.
 
 ## Usage
 
-The landing page should resemble the following image: 
+The landing page should resemble the image below: 
 
-![Landing Page](assets/images/landing.jpg)
+![Landing Page](assets/images/landing.JPG)
 
 
 
