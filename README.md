@@ -33,8 +33,6 @@ The landing page should resemble the image below:
 
 ![Purple flower photo by Mary Skrynnikova on Unsplash](https://unsplash.com/photos/qKfEYouKiiI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-![Orange flower photo by Zoltan Tasi on Unsplash](https://unsplash.com/photos/Q75aqX0wHHA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-
 ![Leaves photo by Fernando Cardoso on Unsplash](https://unsplash.com/photos/qpBUAUApU0g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
   
 ![Trees photo by Andrew Svk on Unsplash](https://unsplash.com/photos/qpBUAUApU0g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
